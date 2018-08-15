@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>JS Session 1 bis</title>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<style>
+		body{
+			font-family: Avenir;
+		}
+
+		h1{
+			color: dodgerblue;
+			font-family: Avenir;
+			font-size: 22px;
+		}
+
+	
+		.carre{
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			color: pink;
+			border: 2px solid black;
+			display: inline-block;
+		}
+
+
+		.add {
+
+			background: red;
+			transition: 0.5s;
+
+		}
+
+	</style>
+
+
+
+</head>
+<body>
+	
+	<h1 class="title">JS - Session 1</h1>
+	<h4>sans DOMContentLoaded (script JS en fin de body)</h4>
+
+	<div id="res_user">coucou from html</div>
+	<hr>
+	<div id="grandediv">
+	<div id="div_1" class="carre" onclick="colorDiv()">1</div>
+	<div id="div_2" class="carre" onclick="colorDiv()">2</div>
+	<div id="div_3" class="carre" onclick="colorDiv()">3</div>
+	<div id="div_4" class="carre" onclick="colorDiv()">4</div>
+	<div id="div_5" class="carre" onclick="colorDiv()">5</div>
+	</div>
+	<p id="ptext"></p>
+
+	<div class="carre alex">Alex</div>
+	
+
+	<div class="carre julie">Julie</div>
+	
+<script src="./appbis.js"></script>
+</body>
+</html>
